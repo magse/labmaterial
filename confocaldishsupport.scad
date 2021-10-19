@@ -6,10 +6,10 @@ include <BOSL/constants.scad>
 use <BOSL/shapes.scad>
 
 
-module dishsupport(D=35,H=10,depth=1.9,t=1.6,eps=0.001) {
+module dishsupport(D=35,H=12,depth=1.9,t=1.6,eps=0.001) {
     
     W=0.8*D;
-    L=1.8*D;
+    L=2.2*D;
 
     union() {
         difference() {
